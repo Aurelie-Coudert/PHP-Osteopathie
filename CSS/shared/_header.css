@@ -1,0 +1,64 @@
+/* header */
+#header {
+    position: sticky; /* Rendre le header fixe en haut */
+    z-index: 1000; /* Ajuster la valeur de z-index pour le superposer à d'autres éléments si nécessaire */
+    top: 0; /* Position au sommet de la page */
+    width: 100%;
+    text-align: center; /* Prendre toute la largeur de la fenêtre */
+    background-color: #8CAF96;
+}
+
+.logo-image {
+    display: inline-block;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.navbar {
+    margin: 0 auto; /* Centrez la navigation horizontalement */
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; 
+    transition: text-decoration 0.2s;
+}
+
+.navbar a:hover {
+    text-decoration: underline white; /* Souligner en blanc au survol */
+}
+
+.navbar button {
+    background-color: white;
+    color: #578A84;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-toggler-icon {
+    background-color: transparent; /* Fond transparent pour le bouton hamburger */
+}
+
+.bar {
+    background-color: var(--vert-fonce); /* Couleur des lignes du bouton */
+    height: 1px; /* Hauteur des lignes */
+    width: 25px; /* Largeur des lignes */
+    margin: 4px 0; /* Espacement entre les lignes */
+    border-radius: 2px; /* Coins arrondis des lignes (facultatif) */
+    padding-top: 4px;
+}
+
+
+@media (max-width: 767px) {
+    .mobile-only {
+        display: inline; /* Affiche la mention sur la version mobile */
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-only {
+        display: none; /* Masque la mention sur les écrans plus larges */
+    }
+}
