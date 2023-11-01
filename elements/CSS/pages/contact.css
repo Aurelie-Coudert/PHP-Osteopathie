@@ -1,0 +1,66 @@
+/* Style pour les grands écrans (largeur minimale de 768px) */
+@media (min-width: 768px) {
+    .contacter {
+        float: left;
+        width: 50%;
+    }
+
+    .formulaire {
+        float: left;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+}
+
+/* Style pour les petits écrans (largeur maximale de 767px) */
+@media (max-width: 767px) {
+    .contacter {
+        width: 100%;
+    }
+
+    .formulaire {
+        width: 100%;
+        margin: 40px 0 40px 0;
+    }
+}
+
+
+/* Style du texte du formulaire */
+.formulaire p {
+    font-weight: bold;
+}
+
+/* Style des labels du formulaire */
+.formulaire label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style des champs de texte et de la zone de texte */
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style du bouton d'envoi */
+.formulaire input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style du bouton d'envoi au survol */
+.formulaire input[type="submit"]:hover {
+    background-color: #0056b3;
+}
