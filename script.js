@@ -8,3 +8,4 @@ function changeLogo(hovered) {
         logoImg.src = 'images/logo-normal.png'; 
     }
 }
+
