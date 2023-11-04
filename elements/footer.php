@@ -27,18 +27,18 @@ Placed at the end of the document so the pages load faster -->
 
           <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
-              <a class="text-white px-2" href="#!">
+              <a class="text-white ps-2" href="https://www.doctolib.fr/osteopathe/vallet/amelie-briand" target="_blank">
+                <img src="images/doctolib2.png" alt="doctolib" height="25">
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!" target="_blank">
                 <i class="fab fa-facebook-square"></i>
               </a>
             </li>
             <li>
-              <a class="text-white px-2" href="#!">
+              <a class="text-white px-2" href="#!" target="_blank">
                 <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a class="text-white ps-2" href="#!">
-                <i class="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
