@@ -26,7 +26,7 @@ require 'elements/header.php'; ?>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
-            <div class="col">
+            <div class="col mb-3">
                 <div class="card" id="card-amelie">
                     <div class="card-content-amelie">
                         <div class="card-img-container">
@@ -51,7 +51,7 @@ require 'elements/header.php'; ?>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col mb-3">
                 <div class="card" id="card-amelie">
                     <div class="card-content-amelie">
                         <div class="card-img-container">
@@ -68,7 +68,7 @@ require 'elements/header.php'; ?>
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col mb-3">
                 <div class="card" id="card-amelie">
                     <div class="card-content-amelie">
                         <div class="card-img-container">
