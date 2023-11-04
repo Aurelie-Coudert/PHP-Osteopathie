@@ -81,7 +81,10 @@ require_once 'functions.php';
                 </div>
                 <div id="rdv" class="d-grid gap-2">
                     <a href="https://www.doctolib.fr/osteopathe/vallet/amelie-briand" target="_blank">
-                        <button class="btn" type="button">Prendre rendez-vous en ligne</button>
+                        <button class="btn" type="button">
+                            <img src="images/icons8-doctolib-50.png" alt="doctolib" height="25">
+                            Prendre rendez-vous en ligne
+                        </button>
                     </a>
                 </div>
 
