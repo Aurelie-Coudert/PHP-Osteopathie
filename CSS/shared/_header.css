@@ -30,8 +30,10 @@
 }
 
 .navbar button {
-    background-color: white;
-    color: #578A84;
+    background-color: var(--vert-clair);
+    color: white;
+    border-color: white;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);;
     font-size: 18px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
